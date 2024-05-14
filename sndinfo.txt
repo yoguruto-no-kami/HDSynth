@@ -1,0 +1,58 @@
+player/hdsynth/grunt	HMM
+player/hdsynth/land		HMM
+
+$random player/hdsynth/xdeath	{ hdsynth/death1 hdsynth/death2 hdsynth/xdie1 }
+$random player/hdsynth/meds	{ hdsynth/pain0 hdsynth/pain1 hdsynth/pain2 }
+$random player/hdsynth/synpain	{ hdsynth/pain0 hdsynth/pain1 hdsynth/pain2 }
+$random player/hdsynth/death	{ hdsynth/death1 hdsynth/death2 hdsynth/xdie1 
+hdsynth/xdie2 hdsynth/xdie3 }
+$random player/hdsynth/taunt	{ hdsynth/taunt0 hdsynth/taunt1 hdsynth/taunt2 
+hdsynth/taunt3 hdsynth/taunt4 hdsynth/taunt5 hdsynth/taunt6 hdsynth/taunt7 
+hdsynth/taunt8 hdsynth/taunt9 hdsynth/taunt10 hdsynth/taunt11 hdsynth/taunt12 
+hdsynth/taunt13 hdsynth/taunt14 hdsynth/taunt15 }
+
+hdsynth/death1  SDIE1	//swordsmachine death sound / machine scream
+hdsynth/death2  SDIE2	//swordsmachine pain sound
+//couldn't find a sound file for when you parry swordsmachine without the enrage sound
+//that would make a good scream
+
+//I played around with tones in Audacity and made these edits to the DIE sounds.
+//They kind of sound like error codes
+
+//I also intended to make them only play when the player dies. But they instead play
+//when the player is zerked as well. Not exactly intended, but it does make it look
+//like the synth is losing control over its own body when zerked and the computer parts
+//error out.
+
+hdsynth/xdie1	SDIEX1	//swordsmachine pain sound but with a tone
+hdsynth/xdie2	SDIEX2	//swordsmachine pain sound but with a tone and noise
+hdsynth/xdie3	SDIEX3	//swordsmachine death sound but with a tone and noise
+
+hdsynth/pain0   SYNPAIN0	//all swordsmachine pain sounds
+hdsynth/pain1   SYNPAIN1
+hdsynth/pain2   SYNPAIN2
+
+hdsynth/taunt0  SYTAUNT0	//fuck you (gremlin like voice)
+hdsynth/taunt1  SYTAUNT1	//fuck you
+hdsynth/taunt2  SYTAUNT2	//hey, dickhead, check this out! (1)
+hdsynth/taunt3  SYTAUNT3	//what's up bitches?
+hdsynth/taunt4  SYTAUNT4	//what the fuck are you looking at?
+hdsynth/taunt5  SYTAUNT5	//AHYOUSCAREDME
+hdsynth/taunt6  SYTAUNT6	//alright big boy, let's ball
+hdsynth/taunt7  SYTAUNT7	//butthead! (gremlin like voice)
+hdsynth/taunt8  SYTAUNT8	//mwahaha! (gremlin like voice)
+hdsynth/taunt9  SYTAUNT9	//come on!
+hdsynth/taunt10 SYTUNT10	//now that's hideous
+hdsynth/taunt11 SYTUNT11	//time to get hideous
+hdsynth/taunt12 SYTUNT12	//alright, who didn't shower? it smells like hell in here
+hdsynth/taunt13 SYTUNT13	//get destructed! hideous style!
+hdsynth/taunt14 SYTUNT14	//hey, watch me do a flip! (2)
+hdsynth/taunt15 SYTUNT15	//who farted?
+
+//considering adding circus music or low quality applauds as a taunt
+
+//1 - you must do something hideous to the enemy whenever you hear this taunt
+//(or not, there is no contract)
+
+//2 - whenever you hear this taunt you are contractually obligated to do a flip
+//(just kidding lol)

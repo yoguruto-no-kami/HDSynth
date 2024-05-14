@@ -1,0 +1,17 @@
+class hdsynth:HDSkin{
+	default{
+		hdskin.tauntsound "player/hdsynth/taunt";
+		hdskin.xdeathsound "player/hdsynth/xdeath";
+		hdskin.gruntsound "player/hdsynth/grunt";
+		hdskin.landsound "player/hdsynth/land";
+		hdskin.medsound "player/hdsynth/meds";
+		hdskin.soundclass "hdsynth";
+		deathsound "player/hdsynth/death";
+		painsound "player/hdsynth/synpain";
+	}
+	states{
+	spawn:PLAY A 0;stop;
+	crouch:PLYC A 0;stop;
+	fist:SHTF A 0;stop;
+	}
+}
