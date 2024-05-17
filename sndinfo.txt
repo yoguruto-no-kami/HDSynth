@@ -9,7 +9,7 @@ hdsynth/xdie2 hdsynth/xdie3 }
 $random player/hdsynth/taunt	{ hdsynth/taunt0 hdsynth/taunt1 hdsynth/taunt2 
 hdsynth/taunt3 hdsynth/taunt4 hdsynth/taunt5 hdsynth/taunt6 hdsynth/taunt7 
 hdsynth/taunt8 hdsynth/taunt9 hdsynth/taunt10 hdsynth/taunt11 hdsynth/taunt12 
-hdsynth/taunt13 hdsynth/taunt14 hdsynth/taunt15 }
+hdsynth/taunt13 hdsynth/taunt14 hdsynth/taunt15 hdsynth/taunt16 }
 
 hdsynth/death1  SDIE1	//swordsmachine death sound / machine scream
 hdsynth/death2  SDIE2	//swordsmachine pain sound
@@ -48,6 +48,7 @@ hdsynth/taunt12 SYTUNT12	//alright, who didn't shower? it smells like hell in he
 hdsynth/taunt13 SYTUNT13	//get destructed! hideous style!
 hdsynth/taunt14 SYTUNT14	//hey, watch me do a flip! (2)
 hdsynth/taunt15 SYTUNT15	//who farted?
+hdsynth/taunt16 SYTUNT16 	//groovy
 
 //considering adding circus music or low quality applauds as a taunt
 
